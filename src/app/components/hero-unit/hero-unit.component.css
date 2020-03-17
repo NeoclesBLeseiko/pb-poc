@@ -1,0 +1,14 @@
+:host {
+  --hero-unit-padding-x: 1rem;
+  --hero-unit-padding-y: 1rem;
+  --hero-unit-bg: rgba(0, 0, 0, .3);
+}
+
+.jumbotron {
+  padding: var(--hero-unit-padding-y) var(--hero-unit-padding-x);
+  background: var(--hero-unit-bg);
+}
+
+h1 {
+  font-size: var(--hero-unit-title-font-size, var(--h1-font-size));
+}

@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <h1 class="display-4" contenteditable (onChange)="onChange('title', $event)">{{ title }}</h1>
+  <div>
+    <p class="lead" contenteditable (onChange)="onChange('body', $event)">{{ body }}</p>
+    <p>some other text</p>
+  </div>
+  <a class="btn btn-primary btn-lg" [href]="href" role="button">{{ buttonText }}</a>
+</div>

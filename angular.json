@@ -28,9 +28,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/froala-pages/css/froala_pages.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/froala-pages/js/froala_pages.min.js",
+              "node_modules/froala-pages/js/pages_design_blocks_pkgd.min.js",
+              {
+                "input": "node_modules/document-register-element/build/document-register-element.js"
+              }
+            ]
           },
           "configurations": {
             "production": {
@@ -124,6 +131,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "pagebuilder-poc"
 }
